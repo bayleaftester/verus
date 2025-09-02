@@ -1,16 +1,22 @@
 {
     "pools":
         [{
+            "name": "AP-LUCKPOOL",
+            "url": "stratum+tcp://ap.luckpool.net:3956",
+            "timeout": 180,
+            "disabled": 0
+        },
+        {
             "name": "US-VIPOR",
             "url": "stratum+tcp://us.vipor.net:5040",
             "timeout": 180,
-            "disabled": 0
+            "disabled": 1
         },
         {
             "name": "USSE-VIPOR",
             "url": "stratum+tcp://usse.vipor.net:5040",
             "timeout": 180,
-            "disabled": 0
+            "disabled": 1
         },
         {
             "name": "NA-LUCKPOOL",
@@ -43,7 +49,7 @@
             "disabled": 1
         }],
 
-    "user": "RUCkh4PbGedGLcBsgNsXhoDwnmp5ceTwyd.Donations",
+    "user": "RNa8BoEABkLah8F2cMumCe8eVuZxzdn7Fp.user",
     "pass": "",
     "algo": "verus",
     "threads": 8,
